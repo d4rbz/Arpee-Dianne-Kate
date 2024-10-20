@@ -137,7 +137,7 @@ const Dashboard = () => {
       {/* Table Container */}
       <div className="overflow-x-auto w-full rounded-lg shadow-lg bg-white">
         {users.length === 0 ? (
-          <p className="text-gray-500 text-center my-4">No users available. Please add a user.</p>
+          <p className="text-gray-500 text-center my-4">No data available. Please add a data.</p>
         ) : (
           <table className="min-w-full bg-white">
             <thead>
